@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+ a{ 
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+}
+
+main{
+    width: 50%;
+    margin: 8.3em auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    margin: top 0;
+    border-radius:  30px;
+    border: 1px solid gray;
+}
+
+.container {
+    margin-top: 1em;
+}
+
+.container button{
+    padding: 1em;
+    border: none;
+}
+
+footer {
+  background-color: rgb(230, 227, 227);
+}
+.footer_top {
+    padding: 1em;
+
+}
+
+.footer_bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.02em solid black;
+}
+
+.left a {
+   margin-right: 1em;
+   color: gray;
+  
+}
+
+.right a {
+    margin-right: 1em; 
+    color: gray;  
+}
+
+div a {
+    color: gray;
+    text-decoration: none;
+   
+}
